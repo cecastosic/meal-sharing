@@ -11,8 +11,8 @@ router.use (bodyParser.json ());
 router.get("/", (request, response) => {
     // api/reviews?mealsId={id} - GET - Return reviews for a specific meals_id
     const { mealsId } = request.query;
-    const num = parseInt(mealsId.trim());
     if (mealsId) {
+      const num = parseInt(mealsId.trim());
       if (Object.is(num, NaN)) {
         response.status(400);
         response.send(`Bad request, ${mealsId} is not a number`);
