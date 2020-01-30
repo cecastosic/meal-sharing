@@ -351,15 +351,16 @@ a {
         background-position: center -15px;
     }
     .hero-meals h2 {
+        line-height: 1em;
+        margin: auto;
         padding-top: 5em;
         width: 70%;
-        margin: auto;
     }
     .search-section {
         top:28%;
     }
     .hero-meals + .search-section {
-        top: 25%;
+        top: 26%;
     }
     .search-section input {
         font-size: 1.1em;
