@@ -4,7 +4,7 @@ const renderNav = () => {
     root.append(nav);
 
     nav.innerHTML = `
-        <a href="/" class="logo">MealSharing <span>by Svetlana</span></a1>
+        <a href="/" class="logo">MealSharing <span>by Svetlana</span></a>
         <ul>
             <li><a href="/" />Home</li>
             <li>|</li>

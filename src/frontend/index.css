@@ -325,3 +325,86 @@ a {
     font-size: 0.8em;
     opacity: 0.6;
 }
+
+@media only screen and (max-width: 600px) {
+    h1 {
+        font-size: 2em;
+    }
+    h2 {
+        font-size: 1.3em;
+    }
+    .logo {
+        font-size: 1.2em;
+        margin: 0;
+    }
+    .main-nav li {
+        padding: 0.3em 0.1em;
+    }
+    .hero {
+        background-repeat: no-repeat;
+        background-size: contain;
+        height: 38vh;
+    }
+    .hero h1 {
+        padding-top:28%;
+    }
+    .hero-meals {
+        background-position: center -15px;
+    }
+    .hero-meals h2 {
+        padding-top: 5em;
+        width: 60%;
+        margin: auto;
+    }
+    .search-section {
+        top:26%;
+    }
+    .hero-meals + .search-section {
+        top: 25%;
+    }
+    .search-section input {
+        font-size: 1.1em;
+        width:50%;
+    }
+    .meal-tile {
+        margin:1.2em 0;
+    }
+    .meal-id {
+        margin-left: 0em;
+        width: 100%;
+    }
+    .reservation {
+        margin: 0 1.3em 2em 0;
+        width:90%;
+    }
+    .reviews h3 {
+        margin-left: 1em;
+    }
+    .review-tile {
+        margin: 1em 0 0;
+    }
+}
+
+@media only screen and (min-width : 768px) and (max-width : 1024px)  {
+    .hero {
+        height: 38vh;
+    }
+    .hero-meals {
+        background-position: center -120px;
+    }
+    .search-section {
+        top:27%;
+    }
+    .meal-tile {
+        max-width: 345px;
+    }
+    .hero-meals + .search-section {
+        top: 14%;
+    }
+    .meal-id {
+        margin-left: 0;
+    }
+    .reservation {
+        margin: 5em 1.2em 0 0;
+    }
+}
