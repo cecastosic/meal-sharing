@@ -341,9 +341,8 @@ a {
         padding: 0.3em 0.1em;
     }
     .hero {
-        background-repeat: no-repeat;
-        background-size: contain;
-        height: 38vh;
+        background-size: cover;
+        height: 40vh;
     }
     .hero h1 {
         padding-top:28%;
@@ -353,11 +352,11 @@ a {
     }
     .hero-meals h2 {
         padding-top: 5em;
-        width: 60%;
+        width: 70%;
         margin: auto;
     }
     .search-section {
-        top:26%;
+        top:28%;
     }
     .hero-meals + .search-section {
         top: 25%;
