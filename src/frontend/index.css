@@ -345,6 +345,7 @@ a {
         height: 40vh;
     }
     .hero h1 {
+        line-height: 1em;
         padding-top:28%;
     }
     .hero-meals {
