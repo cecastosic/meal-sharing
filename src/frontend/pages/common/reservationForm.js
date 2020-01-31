@@ -79,9 +79,7 @@ const reservationForm = async (id) => {
             else fetchPostData();
             setTimeout(() => window.open("/meals"), 3000);
         });     
-    }
-
-    if (availableSpots == 0) {
+    } else {
         const mealTile = document.querySelector("div.meal-tile");
         const divBadge = document.createElement("div");
         mealTile.append(divBadge);
