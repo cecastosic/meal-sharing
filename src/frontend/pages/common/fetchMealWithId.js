@@ -2,10 +2,10 @@ const fetchMealWithId = (id) => {
     
     fetch("/api/meals/" + id)
         .then(response => response.json())
-        .then(data => renderData(data));
+        .then(data => renderMealData(data));
 
   // render specific meal from db
-  const renderData = (data) => {
+  const renderMealData = (data) => {
     const root = document.getElementById("root");
     const mealsSection = document.createElement("section");
     root.append(mealsSection);
